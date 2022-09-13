@@ -4,8 +4,8 @@
   "description": "this is first our team project ",
   "main": "server",
   "scripts": {
-    "start": "node ./src/server.js",
-    "server":"nodemon ./src/server.js"
+    "start": "node ./source/server.js",
+    "server":"nodemon ./source/server.js"
   },
   "authors": "Bek && Doston",
   "license": "ISC",
