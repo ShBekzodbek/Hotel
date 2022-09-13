@@ -1,0 +1,22 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "this is first our team project ",
+  "main": "server",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "server":"nodemon ./src/server.js"
+  },
+  "authors": "Bek && Doston",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.6.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
