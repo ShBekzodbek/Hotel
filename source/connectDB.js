@@ -9,8 +9,8 @@ const connectDB = mongoose.connect(mongo_url)
     }).catch((err) => {
         err.statusCode = err.statusCode || 500;
         console.log(err.message);
-        
-    })
+
+    });
 
 
 
